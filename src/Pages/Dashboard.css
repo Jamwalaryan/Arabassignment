@@ -1,0 +1,95 @@
+/* CSS for Desktop and Larger Screens */
+/* Dashboard.css (or a separate CSS file) */
+
+.gradient {
+    background: linear-gradient(to right, #FFAA00, #FF5500);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.shree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    gap: 70px;
+    text-align: center;
+    transition: transform 0.3s,box-shadow 0.2s;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+
+.price {
+    font-size: 20px;
+    color: #FF5500;
+}
+
+.btn {
+    background: #FF5500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #FFAA00;
+}
+
+.para {
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1rem;
+    gap: 10px;
+    
+}
+
+.icons-1 {
+    font-size: 20px;
+    
+    
+    
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    .shree {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        max-width: 300px;
+    }
+}

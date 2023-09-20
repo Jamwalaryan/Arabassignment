@@ -1,0 +1,51 @@
+/* Add this to your CSS file */
+
+.footer {
+    background:  linear-gradient(to right, #FFAA09, #FF5509);
+    color: #fff;
+    padding: 20px 0;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 3px 8px 0px; 
+    overflow: hidden;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.btn-1{
+    background-color: #FF5509;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 5px;
+    transition: transform 0.3s,box-shadow 0.2s;
+}
+.btn-1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}

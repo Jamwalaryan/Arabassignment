@@ -1,0 +1,53 @@
+.sidebar{
+    height: 100vh;
+    width: 200px;
+    background-color:#2f4850 ;
+    padding: 10px;
+    
+    
+}
+.bar{
+    display: flex;
+    
+    
+}
+.img{
+    width: 50%;
+    border-radius: 50px;
+}
+.profile{
+    text-align: center;
+    background-color:#2f4859;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+}
+.nav-logo{
+    display: flex;
+    margin: 20px;
+    gap: 1.2rem;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+}
+    
+    
+
+.nav-1{
+    background-color:#2f4859;
+    gap: 5px;
+    
+    
+}
+.icon{
+    color: black;
+    font-size:1.5rem;
+}
+.text{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+@media (max-width: 400px) {
+    .sidebar {
+        display: none;
+    }
+}
